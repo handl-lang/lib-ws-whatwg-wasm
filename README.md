@@ -2,14 +2,14 @@
 
 WHATWG WebSocket surface for wasm/JS hosts.
 
-Part of the `handl-lang` org split (ADR-0128). History is a `git subtree
-split` of the platform monorepo's `ws_whatwg_wasm/` (via `web`).
-
 ## Layout
 
 ```text
+docs/       ws_whatwg_wasm.yml design notes
 src/        the .hnl sources
-pkg.hnl     dependencies, when any: `{ deps: { <name>: "branch:<ref>" } }`
+pkg.hnl     package manifest — modules, deps, description, license
+scripts/hnl-gate.sh   the gate
+ci.sh       bupha entry
 ```
 
 ## Gate
