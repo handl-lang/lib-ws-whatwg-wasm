@@ -6,7 +6,7 @@
 
 [[repos]]
 name = "handl-lang/lib-ws-whatwg-wasm"
-dir = "/home/luis/GitHub/handl-lang/lib-ws-whatwg-wasm"
+dir = "~//GitHub/handl-lang/lib-ws-whatwg-wasm"
 branch = "refs/heads/main"
   [repos.runner]
   kind = "script"
