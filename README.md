@@ -9,7 +9,7 @@ docs/       ws_whatwg_wasm.yml design notes
 src/        the .hnl sources
 pkg.hnl     package manifest — modules, deps, description, license
 scripts/hnl-gate.sh   the gate
-ci.sh       bupha entry
+workflows/gate.yaml       bupha entry (handl-gates)
 ```
 
 ## Gate
