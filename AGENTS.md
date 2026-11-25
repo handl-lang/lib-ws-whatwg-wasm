@@ -1,3 +1,32 @@
+# lib-ws-whatwg-wasm
+
+WHATWG WebSocket surface for wasm/JS hosts. Pure `.hnl`.
+
+## Layout
+
+| path | role |
+| --- | --- |
+| `src/index.hnl` | the implementation |
+| `docs/ws_whatwg_wasm.yml` | design notes |
+| `pkg.hnl` | package manifest — `modules: ["ws_whatwg_wasm"]` |
+| `scripts/hnl-gate.sh`, `ci.sh` | the gate / bupha entry |
+
+## Contract
+
+- WHATWG WebSocket surface for wasm/JS hosts; siblings:
+  `lib-ws-whatwg-c` (libcurl/native) and `lib-ws-c`
+  (`concurrent-epoll`).
+
+## Verification
+
+```bash
+HNL=../host-cli/target/debug/hnl scripts/hnl-gate.sh
+```
+
+## License
+
+MIT.
+
 <!-- myco:agent-awareness -->
 
 ## Agent awareness
