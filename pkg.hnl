@@ -1,3 +1,3 @@
 -- lib-ws-whatwg-wasm: modules this package provides (entry defaults to
 -- src/index.hnl; N modules resolve to src/<name>/index.hnl).
-{ modules: ["ws_whatwg_wasm"], description: "WHATWG WebSocket surface for wasm and JS hosts.", license: "MIT" }
+{ modules: ["ws_whatwg_wasm"], name: "ws-whatwg-wasm", description: "WHATWG WebSocket surface for wasm and JS hosts.", license: "MIT" }
