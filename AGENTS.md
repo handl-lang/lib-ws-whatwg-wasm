@@ -9,7 +9,7 @@ WHATWG WebSocket surface for wasm/JS hosts. Pure `.hnl`.
 | `src/index.hnl` | the implementation |
 | `docs/ws_whatwg_wasm.yml` | design notes |
 | `pkg.hnl` | package manifest — `modules: ["ws_whatwg_wasm"]` |
-| `scripts/hnl-gate.sh`, `ci.sh` | the gate / bupha entry |
+| `scripts/hnl-gate.sh`, `workflows/gate.yaml` | the gate / bupha entry |
 
 ## Contract
 
